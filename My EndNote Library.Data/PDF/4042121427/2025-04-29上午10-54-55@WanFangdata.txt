@@ -1,0 +1,33 @@
+%0 Journal Article
+%A 廖敏
+%A 唐成盼
+%A 周善石
+%A 陈建兵
+%A 胡小工
+%A 冯学斌
+%A 陈桂根
+%A 李凯
+%H LIAO Min
+%H TANG Chengpan
+%H ZHOU Shanshi
+%H CHEN Jianbing
+%H HU Xiaogong
+%H FENG Xuebin
+%H CHEN Guigen
+%H LI Kai
+%+ 中国科学院上海天文台
+%T 基于国产ARM架构CPU的导航卫星精密定轨解算效率优化方法
+%J 大地测量与地球动力学
+%J Journal of Geodesy and Geodynamics
+%@ 1671-5942
+%G chi
+%D 2024
+%N 4
+%V 44
+%P 366-371
+%K 精密定轨; ARM架构CPU; 多线程; OpenBlas
+%X 以国产飞腾CPU为例,讨论在国产ARM架构CPU基础上的导航卫星精密定轨解算效率优化方法.基于导航卫星精密定轨解算流程中钟差约化和法方程求逆耗时较多,分别利用多线程和OpenBlas对上述2个过程进行优化.结果表明,优化后解算效率大幅提升.钟差约化方面,采用100个测站32颗导航卫星进行解算时,原始单历元平均耗时1.105 s,优化后为0.188 s;法方程求逆方面,原始求逆平均耗时2 264 s,优化后仅需78 s.
+%U https://d.wanfangdata.com.cn/periodical/dkxbydz202404007
+%R 10.14075/j.jgg.2023.06.198
+%W 北京万方数据股份有限公司
+基金项目:
